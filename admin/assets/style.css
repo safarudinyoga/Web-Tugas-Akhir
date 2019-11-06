@@ -1,0 +1,33 @@
+.container--basic{
+    display: flex;
+    margin: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.container--basic > .col-sm--basic{
+    min-width: 200px;
+    text-align: center;
+    height: 300px;
+    border: 1px solid #cccccc;
+    margin-right: 10px;
+    position: relative;
+}
+.container--basic > .col-sm--basic > img{
+    height: 100%;
+}
+.container--basic > .col-sm--basic > .col-info--basic{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.container--basic > .col-sm--basic > .col-info--basic > span{
+    display: block;
+}
+.login-area > .container > .login-box > .pesan_login{
+	position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    color: red;
+}
